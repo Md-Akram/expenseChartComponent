@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: DM Sans;
+    background-color: hsl(27, 66%, 92%);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(10, 79%, 65%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.top_left {
+    color: white;
+}
+
+.top_left>h1 {
+    font-size: 26px;
+}
+
+.bottom {
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bottom_heading>h1 {
+    font-size: 26px;
+}
+
+.bottom_chart {
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+    margin-top: 10px;
+}
+
+#myChart {
+    min-height: 200px;
+}
+
+.bottom_summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.summary_left>p {
+    color: rgb(180, 180, 180);
+}
+
+.summary_left>span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.summary_right {
+    text-align: right;
+}
+
+.summary_right>h3 {
+    font-size: 18px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
